@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>麺やKyo | 高松ラーメン道</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="logo"><span class="mark">麺</span>高松ラーメン道</div>
+    <button class="menu-toggle" id="menuToggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="siteDrawer">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="drawer" id="siteDrawer" aria-hidden="true">
+  <button class="drawer-close" id="drawerClose" aria-label="メニューを閉じる">&times;</button>
+  <p class="drawer-title">お店一覧</p>
+  <ul>
+    <li><a href="../index.html">トップ</a></li>
+    <li><a href="../shops/kiseki.html">麵屋軌跡</a></li>
+    <li><a href="../shops/goumenya.html">横浜家系ラーメン剛麵屋</a></li>
+    <li><a href="../shops/kyo.html">麺やKyo</a></li>
+    <li><a href="../shops/takamatsugumi.html">東京油組総本店 高松組</a></li>
+  </ul>
+</nav>
+
+<div class="shop-hero">
+  <a class="back-link" href="../index.html">&larr; 一覧に戻る</a>
+  <div class="hero-photo">
+    <img src="../images/kyo.jpg" alt="麺やKyoの讃岐油そば">
+  </div>
+</div>
+
+<section class="shop-detail">
+  <div>
+    <span class="tag">讃岐油そば専門店</span>
+    <h1>麺やKyo</h1>
+    <p class="catch">極太麺と鶏の旨みが絡む、やみつきの一杯。</p>
+    <p class="comment-block">
+      宮脇町に2025年オープンした油そば専門店。うどん用の小麦粉とオーション小麦をブレンドした自家製の極太平打ち麺が特徴で、うどん県らしいコシのある食感が楽しめる。看板の「讃岐油そば」は鶏の旨みがしっかり効いたタレが自慢。かしわや味玉などトッピングも豊富で、ライスと一緒に〆まで満足できる一杯。
+    </p>
+  </div>
+
+  <aside class="info-card">
+    <h2>店舗情報</h2>
+    <ul class="info-list">
+      <li><span class="label">住所</span><span>香川県高松市宮脇町1-3-12</span></li>
+      <li><span class="label">営業時間</span><span>月〜土 10:00〜15:00<br>月〜金 17:00〜20:00<br>（土祝は昼のみ）</span></li>
+      <li><span class="label">定休日</span><span>日曜日</span></li>
+    </ul>
+    <div class="map-embed">
+      <iframe src="https://maps.google.com/maps?q=%E9%A6%99%E5%B7%9D%E7%9C%8C%E9%AB%98%E6%9D%BE%E5%B8%82%E5%AE%AE%E8%84%87%E7%94%BA1-3-12&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="麺やKyoの地図"></iframe>
+    </div>
+  </aside>
+</section>
+
+<footer class="site-footer">
+  &copy; 高松ラーメン道 — 個人の食べ歩き記録サイトです
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>

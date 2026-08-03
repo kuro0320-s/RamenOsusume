@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高松ラーメン道 | 香川のラーメン食べ歩き記録</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="logo"><span class="mark">麺</span>高松ラーメン道</div>
+    <button class="menu-toggle" id="menuToggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="siteDrawer">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<nav class="drawer" id="siteDrawer" aria-hidden="true">
+  <button class="drawer-close" id="drawerClose" aria-label="メニューを閉じる">&times;</button>
+  <p class="drawer-title">お店一覧</p>
+  <ul>
+    <li><a href="index.html">トップ</a></li>
+    <li><a href="shops/kiseki.html">麵屋軌跡</a></li>
+    <li><a href="shops/goumenya.html">横浜家系ラーメン剛麵屋</a></li>
+    <li><a href="shops/kyo.html">麺やKyo</a></li>
+    <li><a href="shops/takamatsugumi.html">東京油組総本店 高松組</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <span class="eyebrow">香川・高松 食べ歩き記録</span>
+  <h1>今日、どの一杯に<br><span>会いに行く？</span></h1>
+  <p>筆者が高松で実際に食べ歩いたラーメン店をまとめています。</p>
+</section>
+
+<section id="shops" class="shop-grid">
+
+  <a class="shop-card" href="shops/kiseki.html">
+    <div class="photo-wrap">
+      <img src="images/kiseki.jpg" alt="麵屋軌跡のラーメン">
+      <div class="comment">一杯に、こだわりの軌跡あり。</div>
+    </div>
+    <div class="info">
+      <span class="tag">清湯醤油</span>
+      <h2>麵屋軌跡</h2>
+      <p class="area">香川県高松市</p>
+    </div>
+  </a>
+
+  <a class="shop-card" href="shops/goumenya.html">
+    <div class="photo-wrap">
+      <img src="images/goumenya.jpg" alt="横浜家系ラーメン剛麵屋の一皿">
+      <div class="comment">豚骨の濃厚パンチ、これぞ家系。</div>
+    </div>
+    <div class="info">
+      <span class="tag">家系</span>
+      <h2>横浜家系ラーメン剛麵屋</h2>
+      <p class="area">香川県高松市</p>
+    </div>
+  </a>
+
+  <a class="shop-card" href="shops/kyo.html">
+    <div class="photo-wrap">
+      <img src="images/kyo.jpg" alt="麺やKyoの讃岐油そば">
+      <div class="comment">極太麺と鶏の旨みが絡む、やみつきの一杯。</div>
+    </div>
+    <div class="info">
+      <span class="tag">讃岐油そば</span>
+      <h2>麺やKyo</h2>
+      <p class="area">香川県高松市</p>
+    </div>
+  </a>
+
+  <a class="shop-card" href="shops/takamatsugumi.html">
+    <div class="photo-wrap">
+      <img src="images/takamatsugumi.jpg" alt="東京油組総本店高松組の油そば">
+      <div class="comment">混ぜて食べる、あとを引く旨さ。</div>
+    </div>
+    <div class="info">
+      <span class="tag">油そば</span>
+      <h2>東京油組総本店 高松組</h2>
+      <p class="area">香川県高松市</p>
+    </div>
+  </a>
+
+</section>
+
+<footer class="site-footer">
+  &copy; 高松ラーメン道 — 個人の食べ歩き記録サイトです
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
